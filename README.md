@@ -11,10 +11,11 @@ The focus is on clean architecture, simple UI, and proper state management.
 - Mock REST API
 
 ## Features
-- Restaurant list
-- Restaurant menu screen
+- Restaurant list fetched from a mock API
+- Restaurant menu screen with items
 - Add and remove items from cart
-- Cart summary and total price
+- Cart summary visible on Home and Restaurant screens
+- Dedicated Cart screen with total price calculation
 
 ## Setup Steps
 1. Clone the repository
@@ -26,4 +27,4 @@ The focus is on clean architecture, simple UI, and proper state management.
    npx react-native run-android
 
 ## Notes
-The UI is kept minimal to focus on functionality and clean code.
+The UI is intentionally kept minimal to focus on functionality and clean code.
